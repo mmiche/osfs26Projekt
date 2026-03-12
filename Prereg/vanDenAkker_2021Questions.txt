@@ -1,0 +1,72 @@
+Taken from van den Akker et al. (2021) https://doi.org/10.15626/MP.2020.2625
+
+- - - - - - - - - - - - -
+Part 1: Study information
+Question 1: Provide the working title of your study.
+
+Question 2: Name the authors of this preregistration.
+
+Question 3: List each research question included in this study.
+
+Question 4: Please provide the hypotheses of your secondary data analysis. Make sure they are specific and testable, and make it clear what your statistical framework is (e.g., Bayesian inference, NHST). In case your hypothesis is directional, do not forget to state the direction. Please also provide a rationale for each hypothesis.
+
+- - - - - - - - - - - - -
+Part 2: Data description
+Question 5: Name and describe the dataset(s), and if applicable, the subset(s) of the data you plan to use. Useful information to include here is the type of data (e.g., cross-sectional or longitudinal), the general content of the questions, and some details about the respondents. In the case of longitudinal data, information about the survey’s waves is useful as well.
+
+Question 6: Specify the extent to which the dataset is open or publicly available. Make note of any barriers to accessing the data, even if it is publicly available.
+
+Question 7: How can the data be accessed? Provide a persistent identifier or link if the data are available online or give a description of how you obtained the dataset.
+
+Question 8: Specify the date of download and/or access for each author.
+
+Question 9: If the data collection procedure is well documented, provide a link to that information. If the data collection procedure is not well documented, describe, to the best of your ability, how data were collected.
+
+Question 10: Some studies offer codebooks to describe their data. If such a codebook is publicly available, link to it here or upload the document. If not, provide other available documentation. Also provide guidance on what parts of the codebook or other documentation are most relevant.
+
+- - - - - - - - - - - - -
+Part 3: Variables
+Question 11: If you are going to use any manipulated variables, identify them here. Describe the variables and the levels or treatment arms of each variable (note that this is not applicable for observational studies and meta-analyses). If you are collapsing groups across variables this should be explicitly stated, including the relevant formula. If your further analysis is contingent on a manipulation check, describe your decisions rules here.
+
+Question 12: If you are going to use measured variables, identify them here. Describe both outcome measures as well as predictors and covariates and label them accordingly. If you are using a scale or an index, state the construct the scale/index represents, which items the scale/index will consist of, how these items will be aggregated, and whether this aggregation is based on a recommendation from the study codebook or validation research. When the aggregation of the items is based on exploratory factor analysis (EFA) or confirmatory factor analysis (CFA), also specify the relevant details (EFA: rotation, how the number of factors will be determined, how best fit will be selected, CFA: how loadings will be specified, how fit will be assessed, which residuals variance terms will be correlated). If you are using any categorical variables, state how you will code them in the statistical analyses.
+
+Question 13: Which units of analysis (respondents, cases, etc.) will be included or excluded in your study? Taking these inclusion/exclusion criteria into account, indicate the (expected) sample size of the data you’ll be using for your statistical analyses to the best of your knowledge. In the next few questions, you will be asked to refine this sample size estimation based on your judgments about missing data and outliers.
+
+Question 14: What do you know about missing data in the dataset (i.e., overall missingness rate, information about differential dropout)? How will you deal with incomplete or missing data? Based on this information, provide a new expected sample size.
+
+Question 15: If you plan to remove outliers, how will you define what a statistical outlier is in your data? Please also provide a new expected sample size. Note that this will be the definitive expected sample size for your study and you will use this number to do any power analyses.
+
+Question 16: Are there sampling weights available with this dataset? If so, are you using them or are you using your own sampling weights?
+
+- - - - - - - - - - - - -
+Part 4: Knowledge of data
+
+Question 17: List the publications, working papers (in preparation, unpublished, preprints), and conference presentations (talks, posters) you have worked on that are based on the dataset you will use. For each work, list the variables you analyzed, but limit yourself to variables that are relevant to the proposed analysis. If the dataset is longitudinal, also state which wave of the dataset you analyzed. Importantly, some of your team members may have used this dataset, and others may not have. It is therefore important to specify the previous works for every co-author separately. Also mention relevant work on this dataset by researchers you are affiliated with as their knowledge of the data may have been spilled over to you. When the provider of the data also has an overview of all the work that has been done using the dataset, link to that overview.
+
+Question 18: What prior knowledge do you have about the dataset that may be relevant for the proposed analysis? Your prior knowledge could stem from working with the data first-hand, from reading previously published research, or from codebooks. Also provide any relevant knowledge of subsets of the data you will not be using. Provide prior knowledge for every author separately.
+
+- - - - - - - - - - - - -
+Part 5: Analyses
+
+Question 19: For each hypothesis, describe the statistical model you will use to test the hypothesis. Include the type of model (e.g., ANOVA, multiple regression, SEM) and the specification of the model. Specify any interactions and post-hoc analyses and remember that any test not included here must be labeled as an exploratory test in the final paper.
+
+Question 20: If applicable, specify a predicted effect size or a minimum effect size of interest for all the effects tested in your statistical analyses.
+
+Question 21: Present the statistical power available to detect the predicted effect size(s) or the smallest effect size(s) of interest OR present the accuracy that will be obtained for estimation. Use the sample size after updating for missing data and outliers, and justify the assumptions and parameters used (e.g., give an explanation of why anything smaller than the smallest effect size of interest would be theoretically or practically unimportant).
+
+Question 22: What criteria will you use to make inferences? Describe the information you will use (e.g., specify the p-values, effect sizes, confidence intervals, Bayes factors, specific model fit indices), as well as cut-off criteria, where appropriate. Will you be using one- or two-tailed tests for each of your analyses? If you are comparing multiple conditions or testing multiple hypotheses, will you account for this, and if so, how?
+
+Question 23: What will you do should your data violate assumptions, your model not converge, or some other analytic problem arises?
+
+Question 24: Provide a series of decisions about evaluating the strength, reliability, or robustness of your focal hypothesis test. This may include within-study replication attempts, additional covariates, cross-validation efforts (out-of-sample replication, split/hold-out sample), applying weights, selectively applying constraints in an SEM context (e.g., comparing model fit statistics), overfitting adjustment techniques used (e.g., regularization approaches such as ridge regression), or some other simulation/sampling/bootstrapping method.
+
+Question 25: If you plan to explore your dataset to look for unexpected differences or relationships, describe those tests here, or add them to the final paper under a heading that clearly differentiates this exploratory part of your study from the confirmatory part.
+
+- - - - - - - - - - - - -
+Part 6: Statement of integrity
+
+The authors of this preregistration state that they filled out this preregistration to the best of their knowledge and that no other preregistration exists pertaining to the same hypotheses and dataset.
+
+- - - - - - - - - - - - -
+End.
+- - - - - - - - - - - - -
