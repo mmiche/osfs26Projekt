@@ -17,7 +17,6 @@ concurve::ggcurve(cor_vis[[1]])
 
 # Analysis 2: Visualize the most important part of the Pearson correlation coefficient.
 library(correlatio)
-
 result2 <- correlatio::corrio(data=dat)
 result2$plot2
 # -----------
