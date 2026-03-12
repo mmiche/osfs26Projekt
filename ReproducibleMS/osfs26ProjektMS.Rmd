@@ -1,0 +1,52 @@
+---
+title: "osfs26ProjektMS"
+author: "Marcel Miché"
+date: "`r Sys.Date()`"
+bibliography: osfs26ProjektMS.bib
+output:
+  pdf_document:
+      citation_package: natbib
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+# Psychology bachelor students' well-being
+
+## Introduction
+
+Well-being is an important aspect of mental and physical health. However, there is no commonly agreed definition of this construct [@bayrak2024graduate]. Apparently, well-being of graduate students have long been overlooked, unlike the well-being of doctoral students [@schmidt2018doctoral]. Well-being, and health in general, are important prerequisites to successfully meet the demands of studying psychology in a full-time university program. Furthermore, the degree of success at the university can largely determine further career chances, which sometimes start right after the bachelor studies, namely when admission to continue with the master studies is granted only to less than 100 percent of the bachelor students.
+
+One possible indicator of mental and/or physical robust health can be that the bachelor student studies psychology despite having to work to financially support him-/herself. It may also be that these students are better equipped to deal with academic challenges, including stress, compared to students who do not have to work during their bachelor studies. This possibility is what we aimed to investigate.
+
+## Methods
+
+### Participants and data collection
+
+The sample consisted of a maximum of 12 psychology master students, all of whom attend a current (as of spring 2026) university seminar on the topic 'open science'. The sample consists predominantly of women, which is in line with the generally known sex ratio of psychology students. All participants are relatively young. However, neither sex nor age has been assessed, in order to keep the data as anonymous as possible. An additional way to achieve guaranteed anonymity was that participants entered their answers in an online tabular document at their selected time and place, i.e., not during the seminar time. Last, not least, participation was kindly requested, not coerced.
+
+### Preregistration
+
+This study was preregistered (see upload time stamp of this file ([click me ](https://github.com/mmiche/osfs26Projekt/blob/main/osfs26Protokoll.txt)).
+
+### Measures
+
+In total, the main author formulated 15 questions, none of which was based on the research literature on bachelor students' well-being. That is, the questions were formulated only by thinking about what might be related and relevant to (bachelor) students' well-being. However, *a posteriori* superficial comparison with the research literature showed that at least some of the 15 questions were similar to established well-being questionnaire items. For example, financial difficulties and social relationships are often part of these well-being questionnaires [@schmidt2018doctoral]. Of note, this 'study' is of a purely didactic nature, i.e., the only purpose was to collect some relevant data which is of (hopefully) high personal interest to the master students of the 'open science' seminar, in order for them to feel attracted to actively 'play' with what they think might be done with the data in combination with conducting open science.
+
+### Research question
+
+Are financial strains during the bachelor study phase positively related to how well academic challenges are dealt with emotionally?
+
+#### Variables
+The research question focuses on two of the 15 questions, namely questions 1 and 6, each ranging between values of 1 and 10. Both variables will be treated as if they fulfill the requirements of the interval scale.
+
+Question 1: Financially, it was difficult for me to pay for study fees, rent, and groceries.
+
+Question 6: On average, I felt emotionally capable to deal with the challenges during studying psychology.
+
+### Data analysis
+
+A simple linear regression model is used, where the scaled values of questionnaire questions 1 and 6 are the outcome and predictor variable, respectively. The focus will be the 90 percent compatibility interval [@rafi2020semantic], which will be produced with the R package concurve [@rafi2020conc]. Additional detailed visualization of the most important part of the Pearson correlation coefficients will be presented using the usual Pearson correlation formula, implemented in the R package correlatio [@miche2025cor].
+
+**Note** for the students: At this point, I stopped with this manuscript and continued with the dummy R script. After having finished that script and after having uploaded it to GitHub, I will run the code with the original data, and then finish this manuscript. Time now: 14:38 h.
