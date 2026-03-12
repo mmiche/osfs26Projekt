@@ -1,0 +1,114 @@
+Heute: 2026-03-12. Dies ist eine txt-Datei, damit sie unabhängig vom Betriebssystem und vom Know-How von jeder Person separat nach eigenem Belieben benutzt werden kann.
+
+Detailliertes Protokoll aller(!) Schritte, um das private Repository "osfs26Projekt" zu erstellen und es mit beispielhaften Inhalten zu füllen.
+
+Ziel dieser Aktion: Jemand ohne jegliche Erfahrung in open science sollte anhand dieses Protokolls die unten aufgeführten Schritte ohne sonstige Hilfe durchlaufen können und am Ende zum exakt selben Gesamtbild kommen. Abgearbeitet werden die open science Komponenten (OS-K) 1-5, die unter diesem Link aufgelistet sind: https://poldrack.github.io/psych-open-science-guide/README.html#the-components-of-open-science-practice
+
+Es versteht sich von selbst, dass diese Komponenten absichtlich nur sehr rudimentär abgearbeitet werden, denn hier geht es einzig um das exemplarische Vorgehen, d.h. im Vordergrund steht die (grossenteils) technische Umsetzung, die dank dieses Protokolls sogar von Laien erfolgreich nachgemacht werden könnte.
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Technische Vorbereitung, um OS-K 2-4 umsetzen zu können:
+
+1. Nutze GitHub Desktop (GHD), um das Repository auf GitHub (GH) zu erstellen (anstatt es direkt auf GH zu erstellen, und dann erst mit GHD zu verbinden).
+1.1 Öffne GHD
+1.2 Nutze offizielle Dokumentation (https://docs.github.com/de/desktop), um das Vorhaben unter Punkt 1 erfolgreich umzusetzen. Hierfür relevant: Erste Schritte mit GHD (https://docs.github.com/de/desktop/overview/getting-started-with-github-desktop)
+1.3 Installiert und authentifiziert ist erledigt.
+1.4 "Teil 2: Konfigurieren ..." ist hier irrelevant, deshalb ignorieren.
+1.5 Teil 3 ist relevant. Befolge auf Webseite aufgelistete Schritte, zuerst klicke auf Link "Erstellen deines ersten Repositorys mit GitHub Desktop" (https://docs.github.com/de/desktop/overview/creating-your-first-repository-using-github-desktop)
+1.6 Gehe dort zu "Teil 2: Erstellen ..."
+1.7 Ohne die "Let's get started!" Oberfläche zu nutzen, gehe im GHD Menü auf File und dann auf New Repository. Es öffnet sich ein separates Fenster in GHD.
+1.8 Fülle folgende Felder aus: Name (ich nenne es: osfs26Projekt), Local Path (gebe Pfad an, wo das Repository (also der Ordner) auf dem lokalen Rechner erzeugt werden soll), klicke die "Initialize ... README" Box an, belasse sowohl Git Ignore und License auf None; zuletzt klicke Create Repository button.
+Ergebnis: Nach 1.8 ist der Ordner osfs26Projekt an meinem gewählten Zielort auf meinem Rechner erzeugt worden. Darin ist eine Datei enthalten, README.md (weil ich die README Box zuvor angeklickt hatte). Weiter geht es in GHD.
+1.9 Klicke in GHD auf den Button "Publish repository". Es öffnet sich ein separates Fenster in GHD.
+1.10 Belasse die Auswahl "GitHub.com" und den Namen. Falls gewünscht, trage etwas in das Description Feld (ich trage "Student well-being" ein), ich lasse den Haken in der Tick box "Keep this code private" drinnen, damit dieses Repository privat bleibt. Zuletzt: Klicke Button "Publish repository".
+1.11 Ich logge mich in GH ein, um zu sehen, ob dort das neue private repository osfs26Projekt mit der README.md Datei vorhanden ist. Bis hierhin hat alles geklappt.
+Ergebnis: Nach 1.11 ist das Repository osfs26Projekt erstellt. Alles, was ich auf meinem Rechner in diesen Ordner lege, kann via GHD zu GH weitergeleitet werden, damit jede/r, die/der Zugriff hat, alle Inhalte von GH runterladen kann. Wenn das Repository statt "private" "public" ist, kann es jede/r runterladen, die/der dieses Repository aufruft.
+Fazit: Technische Voraussetzung ist erfüllt, OS-K 2-4 können hiermit umgesetzt werden.
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Pre-registration (siehe Ordner "Prereg" im Repository osfs26Projekt)
+
+Je nach konkretem Vorhaben gibt es mittlerweile verschiedene Publikationen, die Vorlagen (Templates) vorschlagen, d.h. welche Aspekte in der Präregistrierung enthalten sein sollten, allem voran die Forschungsfrage(n). Selbstverständlich ist es Angelegenheit des/der Forscher/in, ob bzw. welche Vorlage genutzt wird und welche Aspekte in welchem Umfang abgearbeitet werden sowie, ob nicht aufgeführte Aspekte hinzugefügt werden. Ich nutze hier die Vorlage von van den Akker et al. (2021; https://doi.org/10.15626/MP.2020.2625). Ich lege die separate txt-Datei "vanDenAkker_2021Questions" im Repository Ordner Prereg ab (nicht ausgefüllt).
+
+Beispielhaft führe ich hier je einen (maximal drei) Aspekt(e) aus den insgesamt 6 Teilen der Pre-registration Vorlage auf. Wo man die Präregistrierung offiziell registrieren will (wodurch ein Zeitstempel anhand einer DOI (digital object identifier) dokumentiert, d.h. festgehalten, wird), ist ebenfalls Angelegenheit des/der Forscher/in. Aufklärung hierzu gibt es zuhauf im Internet. Die Devise lautet: Hauptsache es wird überhaupt präregistriert. Fragen wie "wo soll ich" sind also vollkommen überflüssig.
+
+Part 1: Study information
+
+Question 1: Provide the working title of your study.
+
+Well-being aspects of psychology bachelor students
+
+Question 3: List each research question included in this study.
+
+Only research question: Are financial strains during the bachelor study phase positively related to how well academic challenges are dealt with emotionally?
+
+Question 4: Please provide the hypotheses of your secondary data analysis. Make sure they are specific and testable, and make it clear what your statistical framework is (e.g., Bayesian inference, NHST). In case your hypothesis is directional, do not forget to state the direction. Please also provide a rationale for each hypothesis.
+
+No test hypothesis will be formulated, based on decades of widely ignored methodological research, which has clarified that and why most scientific psychology fields are not well-suited for formal hypothesis testing (e.g., Gigerenzer, 2004, DOI: 10.1016/j.socec.2004.09.033; Scheel et al., 2021, DOI: 10.1177/1745691620966795). That is, the way too small sample size is not the primary reason why no formal hypothesis test will be conducted.
+
+The research question will therefore be investigated with the descriptive approach to data analysis (e.g., Greenland, 2004, DOI: 10.1097/01.ede.0000134867.12896.23; Shmueli, 2025; DOI: 10.1002/sim.10307). That is, the 90% compatibility interval (Rafi and Greenland, 2020, DOI: 10.1186/s12874-020-01105-9) for the Pearson correlation coefficient will be presented and interpreted. Finally, a detailed visualization of the main part of the Pearson correlation coefficient will be presented and discussed.
+
+Part 2: Data description
+
+Question 5: Name and describe the dataset(s), and if applicable, the subset(s) of the data you plan to use. Useful information to include here is the type of data (e.g., cross-sectional or longitudinal), the general content of the questions, and some details about the respondents. In the case of longitudinal data, information about the survey’s waves is useful as well.
+
+The dataset has no name. It consists of 15 newly formulated (by main author) questions (German language), thought to be relevant regarding bachelor student's well-being. I plan to use questions 1 and 6.
+The data stems from a cross-sectional study design. Twelve psychology master students, who currently (as of spring 2026) attend an open science university seminar, were the target population for this study.
+This study has had only didactic purposes from the outset, namely to enable (and to motivate) the psychology master students to engage in a learning by doing style with open science. That is, to proactively conduct open science on their own, using real data, come up with real research interests (revolving around bachelor students' well-being), forming real research questions and (maybe) statistical hypotheses, which they can finally investigate with real empirical tools, and even cautiously interpret the empirical results.
+Questions 1 and 6 of the questionnaire were:
+Question 1: Es war finanziell schwierig für mich, Studiengebühren, Miete und Nahrungskosten aufzubringen.
+Question 6: Grösstenteils fühlte ich mich emotional fähig, um mit den Herausforderungen des Psychologiestudiums umzugehen.
+
+Part 3: Variables
+Question 11: If you are going to use any manipulated variables, identify them here. Describe the variables and the levels or treatment arms of each variable (note that this is not applicable for observational studies and meta-analyses). If you are collapsing groups across variables this should be explicitly stated, including the relevant formula. If your further analysis is contingent on a manipulation check, describe your decisions rules here.
+
+None of the variables will be manipulated.
+
+Part 4: Knowledge of data
+
+Question 18: What prior knowledge do you have about the dataset that may be relevant for the proposed analysis? Your prior knowledge could stem from working with the data first-hand, from reading previously published research, or from codebooks. Also provide any relevant knowledge of subsets of the data you will not be using. Provide prior knowledge for every author separately.
+
+The dataset has not been used before, therefore no prior knowledge exists. Indeed, all data analysis code has been set-up and tested, using dummy data (all questionnaire questions had a range between 1 and 10 and are treated as if they fulfill interval scale requirements).
+
+Part 5: Analyses
+
+Question 19: For each hypothesis, describe the statistical model you will use to test the hypothesis. Include the type of model (e.g., ANOVA, multiple regression, SEM) and the specification of the model. Specify any interactions and post-hoc analyses and remember that any test not included here must be labeled as an exploratory test in the final paper.
+
+For the research question (see also preregistration questions 3 and 4), a simple linear regression model will be used, where the scaled values of questionnaire questions 1 and 6 will be used as outcome and predictor variable, respectively.
+
+For the additional, detailed visualization of the main part of the Pearson correlation, the usual Pearson correlation formula will be employed, implemented in the R package correlatio (Miché, 2024, https://CRAN.R-project.org/package=correlatio).
+
+Part 6: Statement of integrity
+
+The author of this preregistration state that they filled out this preregistration to the best of their knowledge and that no other preregistration exists pertaining to the same hypotheses and dataset.
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Code sharing
+
+Ich setze ein R-Skript auf (Name: osfs26AnalysisDummy.R), worin ich alle geplanten (siehe oben, Pre-registration) Analysen und Visualisierungen mit Dummydaten vorbereite. Ich werde die Dummydaten leicht positiv korrelieren lassen, z.B. r = .2). Wenn der Code wie erwartet läuft, werde ich das Skript bei GH hochladen. Heisst: Wenn dieses Dummyskript hochgeladen wird, habe ich die Originaldaten noch immer nicht angeschaut. Optimal wäre es natürlich, wenn zu jenem Zeitpunkt noch gar keine Daten erhoben worden wären, sondern frühestens nach dem Upload von osfs26AnalysisDummy.R.
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Data sharing
+
+Die Originaldaten (in diesem Fall, zwei Vektoren mit maximal jeweils 12 Werten zwischen 1 und 10) werden ganz zu Beginn des R-Skripts osfs26Analysis.R stehen. Der Rest des Skripts wird eine 100% Kopie sein von osfs26AnalysisDummy.R.
+
+Die Daten werden nicht öffentlich geteilt, weil das Repository privat ist und bleibt. Selbstverständlich ist unklar, was Personen mit den Daten machen, wenn sie zum Repository zugelassen worden und in den Besitz der Daten gekommen sind.
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Reproducible manuscripts
+
+Das Optimum (das man nicht immer zwingend erreichen muss) ist ein sogenannter Preregistered report, d.h. eine peer-reviewed Publikation, bei der alles ausser die empirischen Resultate vorhanden sind. Erst wenn dies veröffentlicht worden ist, würden die Autor/innen frühestens die Originaldaten zur Verfügung haben. Dann, und nur dann, wäre jeglichen (bewussten oder unbewussten) Verzerrungen (questionable research practices) vorgebeugt.
+
+Wichtig: Was dieses Protokoll hier betrifft, ich habe alles bis zu diesem Teil der txt-Datei am heutigen Tag (siehe Datum ganz oben) ohne Unterbrechung geschrieben. Um dieses Protokoll an dieser Stelle zu beenden, erwähne ich noch, wie ich fortfahre:
+1. Ich werde zuerst ein "reproducible manuscript" in RStudio erstellen, d.h. eine rmd-Datei (rmd = r markdown), die in ein pdf umgewandelt werden kann. Ich werde dort eine kleine Einleitung (Introduction) schreiben und einen Methodenteil, wobei ich vieles aus der obigen Präregistrierung übernehmen werde. Natürlich wird im Methodenteil auch erwähnt, dass diese "Studie" präregistriert wurde.
+2. Sobald das erledigt sein wird, werde ich das machen, was ich oben bei "Code sharing" geschrieben habe.
+3. Sobald das erledigt sein wird, werde ich das machen, was ich oben bei "Data sharing" geschrieben habe.
+4. Ich werde versuchen alle Dinge in einer zeitlich logischen Reihenfolge von GHD nach GH zu schieben, z.B. zuerst den Ordner Prereg zu erstellen mit einer Datei als Inhalt, dann dieses Protokoll hier.
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+Protokoll Ende (12:01 Uhr)
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - -
