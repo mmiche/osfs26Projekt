@@ -112,3 +112,14 @@ Wichtig: Was dieses Protokoll hier betrifft, ich habe alles bis zu diesem Teil d
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 Protokoll Ende (12:01 Uhr)
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Zusatz 2026-03-13: Änderung von Repository status private. Es soll public sein. So geht's:
+1. Einloggen bei GitHub (GH), weil Statusänderung nicht via GitHub Desktop (GHD) möglich ist.
+2. In GH, gewünschtes Repository aufrufen, in diesem Fall also osfs26Projekt.
+3. Im Repository auf GH, klicke oben auf "Settings".
+4. Auf der Settings-Seite, scrolle zum Seitenende, bis zur Überschrift "Danger Zone". Dort: Klicke auf "Change Visibility", dann "Change to public".
+4.1. Zuetzt bestätige durch Klicken auf:
+- "I want to make this repository public".
+- "I have read and understand these effects." und nochmals
+- "Make this repository public."
+Danach ist es public.
